@@ -11,9 +11,9 @@ and will be rendered to beautiful HTML when you visit your GitHub repo.
 ## Student Information
 Please also edit _README.md_ and replace your instructor's name and NetID with your own:
 
-_Student name_: Dan WALLACH
+_Student name_: Daniel Pham
 
-_Student NetID_: dwallach
+_Student NetID_: dcp5
 
 Your NetID is typically your initials and a numeric digit. That's
 what we need here.
@@ -22,15 +22,15 @@ _If you contacted us in advance and we approved a late submission,
 please cut-and-paste the text from that email here._
 
 ## Problem 1
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: {Grading}
 - Assumptions:
   - explain_your_assumptions
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The assets being protected are the students' grades. Obviously, students should not have access to each other's performance in the class, as that would be a violation of FERPA. While students might want to know how they did in comparision to the rest of the class, they should not be allowed to know how they did in comparison to each individual student. This applies to outside adversaries as well; access should be restricted to anyone not in the class for these same reasons. No one other than the student or the teaching staff should have read access to the student's grades, and only the teaching staff should have write access to the student's grades.
+  - The other kind of assets are the work each student submits. Again, students having access to each other's homework submissions could be a FERPA violation, depending on the nature of the assignment. Any student submitting homework late obviously could benefit from having the submissions of other students, so we want to protect against this. Write access should only be allowed once or up until the date of submission by the student, depending on the nature of the assignment, and only the student and the teaching staff should have read access to the submission at any given time. 
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  -  Define a read adversary as a non-staff member who wants to view the submission or grade of someone other than themselves. This might be to obtain information about the students
+  - Define a write adversary as a non-staff member who wants to actually change the submission or grade of any student, including themselves. This type of adversary can obviously benefit from controlling the performance of students in the class, causing any student to pass or fail at the adversary's discretion. 
 - Countermeasures:
   - explanatory_paragraph
   - explanatory_paragraph ...
